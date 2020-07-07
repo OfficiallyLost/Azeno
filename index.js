@@ -1,1 +1,1 @@
-//This is a test git push
+throw new SyntaxError("This is an example syntax error.");
