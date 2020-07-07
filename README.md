@@ -1,2 +1,2 @@
 # Azeno
-Programming Language Project
+Javascript Project
