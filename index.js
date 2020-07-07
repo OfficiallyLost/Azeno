@@ -1,1 +1,1 @@
-throw new SyntaxError("This is an example syntax error.");
+console.log("Testing branches")
