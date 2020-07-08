@@ -1,0 +1,84 @@
+body
+{
+
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+
+}
+
+div.full-container
+{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+
+p.title
+{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+
+}
+
+div.input-result-container
+{
+
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+    height: 85%;
+
+}
+
+div.box-input-result-container
+{
+
+    display: inline-block;
+    padding: 2%;
+    height: 80%;
+    width: 20%;
+
+}
+
+div.box-container
+{
+
+    background-color: #535353;
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+
+}
+
+p.subtitle
+{
+
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+div.user-selection-input-temperature
+{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+
+}
+
+p.temperatureConversionResult
+{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+
+}

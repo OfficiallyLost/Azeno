@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+
+</head>
+
+
+
+<body>
+    
+    <div class = "full-container">
+
+        <p class = "title">Temperature Converter</p>
+
+        <div class = "input-result-container">
+
+            <div class = "box-input-result-container">
+
+                <div class = "box-container">
+
+                    <p class = "subtitle">Converter</p>
+                    <div class = "user-selection-input-temperature">
+
+                        <form>
+                            <label for="cars">From:</label>
+                            <select name="Units" id="units" onselect="changeTemperatureConversionUnit()">
+                              <option value="Degree Celcius">Degree Celcius</option>
+                              <option value="Degrees Farenheit">Degrees Farenheit</option>
+                            </select>
+                            <br><br>
+                        </form>
+
+                        <form>
+                            <label for="cars">To:</label>
+                            <select name="Units" id="units" onselect="changeTemperatureConversionUnit()">
+                              <option value="Degree Celcius">Degree Celcius</option>
+                              <option value="Degrees Farenheit">Degrees Farenheit</option>
+                            </select>
+                            <br><br>
+                        </form>
+
+                        <form>
+                            <label for="temperature">Temperature Value:</label>
+                            <input type="text" id="temperature" name="temperature" onchange="convertTemperatureAgain()"><br><br>
+                        </form>
+
+                    </div>
+
+                    <div class = "result-temperatureSelections">
+
+                        <p class = "subtitle">Result</p>
+                        <p class = "temperatureConversionResult">Provide a temperature value input.</p>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+
+
+</html>
