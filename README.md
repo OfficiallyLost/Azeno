@@ -5,4 +5,5 @@ Javascript Project
 
 ---
 
-# Day 1 - Temperature Converter
+# Day 1
+Temperature Converter
